@@ -1,7 +1,9 @@
 
 /* import color */
 /* @import url(_variables.css); */
-
+html{
+    scroll-behavior: smooth;
+}
 header{
     height: 100vh;
 } 
@@ -91,4 +93,11 @@ header{
 
 
 }
-/* =========== end front page ============= */
+/* =========== Projects ============= */
+.projects-area{
+    padding-bottom: 30%;
+}
+.projects-area .project-title{
+    padding-bottom: 2rem;
+}
+
