@@ -16,11 +16,7 @@
     <script src="./main.js"></script>
     
 </head>     
-<style>
-    html{
-        scroll-behavior: smooth;
-    }
-</style>
+
 <body>
     <!-- =============== header =============== -->
     <header class="header">
@@ -42,7 +38,7 @@
                       <a class="nav-link" href="#project">Projects</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Experience</a>
+                      <a class="nav-link" href="#experience">Experience</a>
                     </li>
                   </ul>
                 </div>
@@ -63,7 +59,9 @@
                         <div class="site-buttons">
                             <div class="d-flex flex-row flex-wrap">
                                 <button type="button" class="btn button primary-button mr-4">Contact me</button>
-                                <button type="button" class="btn button secondary-button">Resume</button>
+                                <button type="button" class="btn button secondary-button"
+                                onclick="window.open('files/resume.pdf', '_blank', 'fullscreen=yes'); return false;"
+                                >Resume</button>
                             </div> 
                         </div> 
                     </div>
@@ -81,6 +79,7 @@
             <div class="container" >
                     
                 <div class="project-title" >
+                    <Link to="section1">
                     <h1 id="project">My Projects</h1>
                 </div>
 
