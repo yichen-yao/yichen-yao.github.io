@@ -1,7 +1,11 @@
 
 /* import color */
 /* @import url(_variables.css); */
-
+ 
+html {
+    scroll-behavior: smooth;
+  }
+  
 header{
     height: 100vh;
 } 
